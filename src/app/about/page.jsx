@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "src/app/about/page.module.css";
+import styles from "./page.module.css";
 import Image from "next/image";
-import Button from "src/app/about/button/Button";
+import Button from "src/app/components/button/Button";
 
 function About() {
   return (
