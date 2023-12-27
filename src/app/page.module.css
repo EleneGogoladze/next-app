@@ -11,12 +11,6 @@
   gap: 50px;
 }
 
-.title {
-  font-size: 72px;
-  background: linear-gradient(to bottom, #194c33, #bbb);
-  -webkit-text-fill-color: transparent;
-}
-
 .img {
   width: 100%;
   height: 500px;

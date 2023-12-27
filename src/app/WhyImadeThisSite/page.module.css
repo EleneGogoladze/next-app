@@ -1,0 +1,19 @@
+.imgText {
+  position: top;
+  bottom: 20px;
+  left: 20px;
+  padding: 5px;
+}
+
+.textContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 2px;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

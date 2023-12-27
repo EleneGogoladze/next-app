@@ -13,42 +13,27 @@ function Navbar() {
     },
     {
       id: 2,
-      title: "Portfolio",
+      title: "The memes",
       url: "/portfolio",
     },
-    {
+       {
       id: 3,
-      title: "Blog",
-      url: "/blog",
+      title: "Why I made this site",
+      url: "/WhyImadeThisSite",
     },
-    {
-      id: 4,
-      title: "About",
-      url: "/about",
-    },
-    {
-      id: 5,
-      title: "Contact",
-      url: "/contact",
-    },
-    {
-      id: 6,
-      title: "Dashboard",
-      url: "/dashboard",
-    },
+    
   ];
 
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        Lamamia
+        ელენე გოგოლაძე
       </Link>
       <div className={styles.links}>
         <DarkModeToggle/>
         {links.map((link) => (
           <Link href={link.url}>{link.title}</Link>
         ))}
-        <button className={styles.logout}>Logout</button>
       </div>
     </div>
   );
