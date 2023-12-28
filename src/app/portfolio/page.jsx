@@ -13,6 +13,11 @@ import meme8 from "public/meme8.png";
 import meme9 from "public/meme9.png";
 import meme10 from "public/meme10.png";
 import meme11 from "public/meme11.png";
+import meme12 from "public/meme12.png";
+import meme13 from "public/meme13.png";
+import meme14 from "public/meme14.png";
+import meme15 from "public/meme15.png";
+
 
 export default function Home() {
   return (
@@ -37,6 +42,10 @@ export default function Home() {
         <Image src={ meme9 } alt="meme9" className={styles.img}/>
         <Image src={ meme10 } alt="meme10" className={styles.img} width={1000} height={1000}/>
         <Image src={ meme11 } alt="meme11" className={styles.img}/>
+        <Image src={ meme12 } alt="meme12" className={styles.img}/>
+        <Image src={ meme13 } alt="meme13" className={styles.img}/>
+        <Image src={ meme14 } alt="meme14" className={styles.img} width={1000}/>
+        <Image src={ meme15 } alt="meme15" className={styles.img}/>
       </div>
     
     </main>
